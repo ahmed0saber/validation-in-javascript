@@ -1,1 +1,1 @@
-# regular-expression-in-javascript
+# validation-in-javascript
