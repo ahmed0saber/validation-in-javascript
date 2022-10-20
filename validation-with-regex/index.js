@@ -48,6 +48,8 @@ console.log(stringWithoutCharsExceptNumbers)
 // \d matches numbers from 0 to 9, \D matches everything except numbers
 // \w matches numbers, letters and underscore, \W matches everything except numbers, letters and underscore
 
+let strWithAtLeastOneNumber = "ahmed0saber"
+console.log(/\d/.test(strWithAtLeastOneNumber))
 
 // in a certain website we are allowed to use only numbers, letters and _ for username, how can we verify that the last entered character is valid ?
 let lastEnteredChar = "a"
